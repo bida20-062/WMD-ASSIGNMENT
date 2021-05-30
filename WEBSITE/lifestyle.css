@@ -1,0 +1,90 @@
+.icon-bar {
+    width: 100%; 
+    background-color: #31445c; 
+    overflow: auto; 
+  }
+  
+  .icon-bar a {
+    float: left; 
+    text-align: center; 
+    width: 20%; 
+    padding: 12px 0; 
+    transition: all 0.3s ease; 
+    color: white; 
+    font-size: 36px; 
+  }
+  
+  .icon-bar a:hover {
+    background-color: #000; 
+  }
+  
+  .active {
+    background-color: #212e3d;
+    
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #f1f1f1;
+    padding: 20px;
+    font-family: Arial;
+  }
+  .main {
+    max-width: 1000px;
+    margin: auto;
+  }
+  
+  h1 {
+    font-size: 50px;
+    word-break: break-all;
+    background-color: #212e3d;
+    color: white;
+    
+  }
+  
+  .row {
+    margin: 8px -16px;
+  }
+  
+  
+  .row,
+  .row > .column {
+    padding: 8px;
+  }
+  
+  
+  .column {
+    float: left;
+    width: 25%;
+  }
+  
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  
+  .content {
+    background-color: #31445c; 
+    padding: 10px;
+  }
+  
+  
+  @media screen and (max-width: 900px) {
+    .column {
+      width: 50%;
+    }
+  }
+  
+  
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+  }
+  
